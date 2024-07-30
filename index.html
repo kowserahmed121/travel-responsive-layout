@@ -1,29 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>travel responsive layout</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
     <header class="container">
-        <!-- nav section code  -->
-        <nav class="nav-container display-flex">
-            <div class="brand-name display-flex">
-                <img src="./Images/logo.png" alt="brand logo">
-                <h2>Hero <span class="travel-span">Travel</span></h2>
-            </div>
-            <div class="brand-option">
-                <ul class="display-flex">
-                    <li><a href="#" class="travel-span">Home</a></li>
-                    <li><a href="">Packages</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <!-- nav section code  -->
+      <nav class="nav-container display-flex">
+        <div class="brand-name display-flex">
+          <img src="./Images/logo.png" alt="brand logo" />
+          <h2>Hero <span class="travel-span">Travel</span></h2>
+        </div>
+        <div class="brand-option">
+          <ul class="display-flex">
+            <li><a href="#" class="travel-span">Home</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-</body>
+    <main>
+      <!-- explore travel section  -->
+      <section class="container explore-travel-section">
+        <div class="explore-content">
+          <h2>Explore Your Travel</h2>
+          <p>
+            Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+            adipiscing.<br />
+            In et odio enim ac quis sapien urna eu phasellus.
+          </p>
+          <div class="input-explore-container">
+            <input type="text" placeholder="Where go" />
+            <select name="" id="">
+              <option value="">When</option>
+            </select>
+            <select name="" id="">
+              <option value="">Select Type</option>
+            </select>
+            <button class="primary-btn">
+              <i class="fa-solid fa-magnifying-glass"></i>Find Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- popular-tours-section code here  -->
+      <section class="container popular-tours-section display-flex">
+        <div class="populars-tours-content">
+          <h3>Our Popular Tours</h3>
+          <p>
+            Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+            odio sit massa. Sodales dictumst nec nibh pellentesque.
+          </p>
+          <ul>
+            <li>
+              Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+              nullam odio neque diam. Sociis erat at .
+            </li>
+            <li>
+              Adipiscing ornare pellentesque mauris volutpat tortor vitae platea
+              porta lacus. Lectus suspendisse nullam.
+            </li>
+            <li>
+              Accumsan eget et turpis praesent lorem egestas enim elit bibendum.
+              Risus at in.
+            </li>
+          </ul>
+          <p>
+            Amet consectetur. Vulputate commodo felis molestie risus ornare
+            nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+            Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
+            semper tincidunt.
+          </p>
+          <div class="primary-btn">
+            Read More
+          </div>
+        </div>
+        <div class="populars-tours-img">
+            <img src="./Images/tours.png" alt="a mountain pic">
+        </div>
+      </section>
+      <!-- img destination container section -->
+      <section class="container destination-container">
+        <h3 class="text-align">Choose Your Destination</h3>
+        <p class="text-align">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+        <div class="first-row">
+            <div class="row-destination">
+                <img src="./Images/img-1.png" alt="Maldives">
+                <p class="country-name">Maldives</p>
+            </div>
+            <div class="row-destination">
+                <img src="./Images/img-2.png" alt="Indonesia">
+                <p class="country-name">Indonesia</p>
+            </div>
+        </div>
+        <div class="second-row">
+            <div class="row-destination">
+                <img src="./Images/img-3.png" alt="Srilanka">
+                <p class="country-name">Srilanka</p>
+            </div>
+            <div class="row-destination">
+                <img src="./Images/img-4.png" alt="North America">
+                <p class="country-name">North America</p>
+            </div>
+            <div class="row-destination">
+                <img src="./Images/img-5.png" alt="Kashmir">
+                <p class="country-name">Kashmir</p>
+            </div>
+        </div>
+        <div class="third-row">
+            <div class="row-destination">
+                <img src="./Images/img-6.png" alt="Bangladesh">
+                <p class="country-name">Bangladesh</p>
+            </div>
+            <div class="row-destination">
+                <img src="./Images/img-7.png" alt="Bandarban">
+                <p class="country-name">Bandarban</p>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
