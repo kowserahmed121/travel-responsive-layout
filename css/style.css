@@ -253,3 +253,67 @@ select {
 }
 
 /* deals container section  */
+.deals-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tour-card-container {
+  background-image: url(../Images/img-11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tour-card-container h4{
+    color: rgb(19, 19, 24);
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 1.9rem;
+}
+
+.tour-card-container .color-p{
+    color: rgb(255, 84, 0);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.tour-card {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.8);
+  width: 560px;
+  padding: 30px;
+  margin: 0px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.time-date{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.time i{
+    color: rgb(255, 84, 0);
+}
+
+.second-tour{
+    justify-content: flex-start;
+    background-image: url(../Images/img-122.png);
+}
