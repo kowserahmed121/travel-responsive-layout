@@ -253,10 +253,10 @@ select {
 }
 
 /* deals container section  */
-.deals-container{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.deals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 .tour-card-container {
   background-image: url(../Images/img-11.png);
@@ -269,17 +269,17 @@ select {
   align-items: center;
 }
 
-.tour-card-container h4{
-    color: rgb(19, 19, 24);
-font-size: 1.5rem;
-font-weight: 800;
-line-height: 1.9rem;
+.tour-card-container h4 {
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.9rem;
 }
 
-.tour-card-container .color-p{
-    color: rgb(255, 84, 0);
-    font-weight: 800;
-    font-size: 1.2rem;
+.tour-card-container .color-p {
+  color: rgb(255, 84, 0);
+  font-weight: 800;
+  font-size: 1.2rem;
 }
 
 .tour-card {
@@ -296,24 +296,106 @@ line-height: 1.9rem;
   gap: 20px;
 }
 
-.time-date{
-    display: flex;
-    gap: 40px;
-    align-items: center;
+.time-date {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
-.time{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-.time i{
-    color: rgb(255, 84, 0);
+.time i {
+  color: rgb(255, 84, 0);
 }
 
-.second-tour{
-    justify-content: flex-start;
-    background-image: url(../Images/img-122.png);
+.second-tour {
+  justify-content: flex-start;
+  background-image: url(../Images/img-122.png);
+}
+
+/* perfect place container  */
+.perfect-place-section {
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.perfect-place-section .populars-tours-content ul li {
+  color: black;
+  font-weight: 800;
+}
+
+.perfect-place-section h3 {
+  line-height: 46px;
+}
+
+/* newsletter container section  */
+
+.newsletter-container {
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.newsletter-input-content {
+  border: 2px solid rgb(255, 84, 0);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.newsletter-input-content h4 {
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.9rem;
+}
+
+.newsletter-input-content p {
+  margin: 20px 0;
+}
+
+.newsletter-input-content input {
+  width: 360px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  margin: 15px 0;
+}
+
+.newsletter-input-content .primary-btn {
+  width: 360px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.newsletter-img-content{
+  position: relative;
+}
+
+.save-up {
+  border-radius: 16px;
+  background: rgb(255, 84, 0);
+  display: inline-block;
+  padding: 2rem 3rem;
+  position: absolute;
+  right: 47px;
+  bottom: 122px;
+  transform: rotate(-36deg);
+  text-align: center;
+}
+
+.save-up p{
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.save-up h4{
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 800;
 }
