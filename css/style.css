@@ -171,10 +171,6 @@ select {
   line-height: 1.7rem;
 }
 
-.populars-tours-img img{
-  width: 100%;
-  height: 100%;
-}
 /* img destination css here  */
 .first-row {
   display: grid;
@@ -480,6 +476,11 @@ select {
 .time-date{
   display: none;
 }
+.populars-tours-img img
+{
+  width: 100%;
+  height: auto;
+}
 
 .perfect-place-section{
   flex-direction: column;
@@ -487,6 +488,10 @@ select {
 
 .newsletter-container{
   flex-direction: column;
+}
+.tour-card{
+  width: 600px;
+  height: auto;
 }
 }
 
